@@ -34,8 +34,8 @@ void findPrimes(const int arr[], size_t size, std::vector<int> &primes)
 
 int main()
 {
-    int numbers[] {4, 7, 12, 3, 9, 17, 29};
-    
+    int numbers[]{4, 7, 12, 3, 9, 17, 29};
+
     size_t size = sizeof(numbers) / sizeof(numbers[0]);
     vector<int> primes;
 
